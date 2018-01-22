@@ -1,0 +1,42 @@
+GULP:
+-a toolkit to build js applications
+-installed with npm
+-takes care of time consuming repetitive tasks
+-many plugins available for many tasks
+
+COMMON tasks it does:
+-Minifying code
+-Files merging(js or css) into one so that application go faster
+-Cache busing(letting browser know if there is a new version of cached file)
+-Testing liniting debugging
+(linting is the process of running a program that will analyse code for potential errors)
+-Dev server(for running code on devlopment server)
+
+
+How GULP works:
+-built on top of node streams(a continues flow of data that can be manipulated asynchronously)
+https://www.sitepoint.com/basics-node-js-streams/
+
+-uses piping or chaining (getting the output from previous process and passing it to next one) read about '.pipe()' function
+
+How use GULP:
+we don't use gulp in production env so we have to install gulp as dev dependency
+
+-install gulp globally
+npm install -g gulp
+
+-install gulp locally in project
+npm install --save-dev gulp
+
+
+-create src dir for the dev src and dist for production src
+-to define tasks for gulp to do create gulpfile.js in you project and define tasks
+
+-installing image optimizer plugin for gulp
+npm install --save-dev gulp-imagemin
+
+-installing js/css minifier
+npm install --save-dev gulp-uglify
+
+and much more...
+
