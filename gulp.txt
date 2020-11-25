@@ -1,3 +1,7 @@
+Prerequisites:
+Make sure to install gulp 4 if you are using node 12 or above
+
+
 GULP:
 -a toolkit to build js applications
 -installed with npm
@@ -23,7 +27,7 @@ How use GULP:
 we don't use gulp in production env so we have to install gulp as dev dependency
 
 -install gulp globally
-npm install -g gulp
+npm install -g gulp-cli
 
 -install gulp locally in project
 npm install --save-dev gulp
@@ -37,6 +41,4 @@ npm install --save-dev gulp-imagemin
 
 -installing js/css minifier
 npm install --save-dev gulp-uglify
-
-and much more...
 
