@@ -26,6 +26,9 @@ https://www.sitepoint.com/basics-node-js-streams/
 How use GULP:
 we don't use gulp in production env so we have to install gulp as dev dependency
 
+- Check gulp version
+gulp -v
+
 -install gulp globally
 npm install -g gulp-cli
 
